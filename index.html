@@ -11,8 +11,11 @@
 
 <body>
     <div class="container fluid">
-        <nav class="navbar navbar-nav navbar-fixed-top">
-            <div class="container">
+        <nav class="navbar navbar-defualt navbar-nav navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Tyler Rhinehart</a>
+                </div>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#">Button 1</a></li>
                     <li><a href="#">Button 2</a></li>
@@ -44,11 +47,80 @@
             </div>
         </section>
         <section class="content">
-            <div class="experience"></div>
-            <div class="portfolio"></div>
-            <div class="resume"></div>
+            <div class="skills">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <h3>Front-End</h3>
+                        <ul>
+                            <li>Skill 1</li>
+                            <li>Skill 2</li>
+                            <li>Skill 3</li>
+                            <li>Skill 4</li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-6">
+                        <h3>Back-End</h3>
+                        <ul>
+                            <li>Skill 1</li>
+                            <li>Skill 2</li>
+                            <li>Skill 3</li>
+                            <li>Skill 4</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio">
+                <div class="row">
+                    <div class="col-xs-12 portfolio-title">
+                        <h3>Portfolio</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-3">
+                        <div class="portfolio-project-box">
+                            <h4>Project 1</h4>
+                        </div>
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="portfolio-project-box">
+                            <h4>Project 2</h4>
+                        </div>
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="portfolio-project-box">
+                            <h4>Project 3</h4>
+                        </div>
+                    </div>
+                    <div class="col-xs-3">
+                        <div class="portfolio-project-box">
+                            <h4>Project 4</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="resume">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h3>Resume</h3>
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="footer">
+            <div class="row">
+                <div class="col-xs-6 col-xs-offset-1 contact-form">
+                    <input type="text" class="form-control" placeholder="Name">
+                    <input type="text" class="form-control" placeholder="Email">
+                    <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                    <button type="submit" class="btn btn-primary">submit</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-3">
+                    <a href="#"><i class="fa fa-github"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
         </section>
     </div>
 </body>

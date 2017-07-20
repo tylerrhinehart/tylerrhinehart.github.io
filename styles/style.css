@@ -1,8 +1,15 @@
 @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 body {
   background-color: white;
 }
 
 .header {
   background-image: url("http://placehold.it/2000x1000");
+  margin-top: 4%;
+}
+
+.portfolio-project-box {
+  background-color: lightgrey;
+  padding: 1rem;
 }
