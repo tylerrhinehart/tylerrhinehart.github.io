@@ -10,23 +10,7 @@
 </head>
 
 <body>
-    <!-- <nav class="navbar navbar-defualt navbar-nav navbar-fixed-top" role="navigation">
-        <div class="container-fluid top-navbar">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#my-navbar" aria-expanded="false">
-                </button>
-                <a class="navbar-brand" href="#">Tyler Rhinehart</a>
-            </div>
-            <div class="collapse navbar-collapse" id="my-navbar" aria-expanded="false">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Button 1</a></li>
-                    <li><a href="#">Button 2</a></li>
-                    <li><a href="#">Button 3</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav> -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <!-- <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
@@ -46,7 +30,7 @@
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav> -->
 
     <section class="header">
         <div class="container-fluid">
@@ -63,10 +47,10 @@
             </div>
             <div class="row header-buttons">
                 <div class="col-xs-12 col-md-2 col-md-offset-3 header-button-spacing">
-                    <button type="button" class="btn btn-defualt btn-primary">Skills</button>
+                    <a href="#skills" class="smoothScroll"><button type="button" class="btn btn-defualt btn-primary">Skills</button></a>
                 </div>
                 <div class="col-xs-12 col-md-2 header-button-spacing">
-                    <button type="button" class="btn btn-defualt btn-primary">Portfolio</button>
+                    <a href="#portfolio" class="smoothScroll"><button type="button" class="btn btn-defualt btn-primary">Portfolio</button></a>
                 </div>
                 <div class="col-xs-12 col-md-2">
                     <a href="https://tylerrhinehart.github.io/resume/"><button type="button" class="btn btn-defualt btn-primary">Resume</button></a>
@@ -76,7 +60,7 @@
     </section>
     <section class="content">
         <div class="container-fluid">
-            <div class="skills">
+            <div class="skills" id="skills">
                 <div class="row">
                     <div class="col-xs-12">
                         <h3>Skills</h3>
@@ -133,7 +117,7 @@
                     </div>
                 </div>
             </div>
-            <div class="portfolio">
+            <div class="portfolio" id="portfolio">
                 <div class="row">
                     <div class="col-xs-12 portfolio-title">
                         <h3>Portfolio</h3>
@@ -240,6 +224,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <script src="smoothscroll.js"></script>
 </body>
 
 </html>
