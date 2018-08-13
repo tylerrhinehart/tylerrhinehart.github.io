@@ -17,6 +17,7 @@ a {
 .callout {
     background-color: #18bc9c;
     color: #ffffff;
+    border: none;
 }
 
 .headshot {
@@ -43,7 +44,30 @@ a {
 
 .skills .cell {
     display: flex;
-    justify-content: center;
+    align-items: center;
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-list ul li {
+    font-size: 1.2rem;
+}
+
+.about-me p {
+    margin-bottom: 0; 
+}
+
+.experience {
+    padding-left: 2rem;
+}
+
+.exp-title {
+    margin-left: 1rem;
+    list-style: none;
+
 }
 
 .card {
@@ -51,8 +75,8 @@ a {
 }
 
 .card-divider {
-    background-color: #18bc9c;
-    color: #ffffff;
+    background-color: #ffffff;
+    /* color: #ffffff; */
 }
 
 .card img {
