@@ -20,12 +20,15 @@
                     </ul>
                 </div>
                 <div class="top-bar-right">
-                    <ul class="menu">
+                    <ul id="menu" class="menu">
                         <li>
-                            <a href="#">Skills</a>
+                            <a class="smooth" href="#about">About</a>
                         </li>
                         <li>
-                            <a href="#">Portfolio</a>
+                            <a class="smooth" href="#skills">Skills</a>
+                        </li>
+                        <li>
+                            <a class="smooth" href="#portfolio">Portfolio</a>
                         </li>
                         <li>
                             <a href="#">Resume</a>
@@ -47,7 +50,7 @@
         </div>
     </div>
 
-    <article class="grid-container">
+    <article id="about" class="grid-container">
         <div class="grid-x align-center">
             <div class="cell medium-8">
                 <div class="section about-me">
@@ -64,7 +67,7 @@
             </div>
     </article>
 
-    <article class="callout large">
+    <article id="skills" class="callout large">
         <div class="grid-container">
             <div class="grid-x align-center">
                 <div class="cell medium-8">
@@ -83,7 +86,7 @@
             </div>
     </article>
 
-    <article class="grid-container">
+    <article id="portfolio" class="grid-container">
         <div class="grid-x align-center">
             <div class="cell medium-8">
                 <div class="section portfolio">
@@ -151,6 +154,23 @@
     <script src="static/js/vendor/foundation.min.js"></script>
     <script>
         $(document).foundation();
+
+
+        $(document).ready(function () {
+            $(".smooth").click(function (event) {
+                event.preventDefault();
+                
+                var dest = 0;
+                if ($(this.hash).offset().top > $(document).height() - $(window).height()) {
+                    dest = $(document).height() - $(window).height();
+                } else {
+                    dest = $(this.hash).offset().top;
+                }
+            
+                $('html,body').animate({ scrollTop: dest }, 1000, 'swing');
+            });
+        });
+
     </script>
 
 </body>
