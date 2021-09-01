@@ -1,0 +1,233 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tyler Rhinehart | Web Developer</title>
+    <link rel="stylesheet" href="static/css/foundation.css" />
+    <link rel="stylesheet" href="static/css/app.css">
+</head>
+
+<body>
+    <nav>
+        <div class="grid-container">
+            <div class="top-bar">
+                <div class="top-bar-left">
+                    <ul class="menu">
+                        <li class="menu-text">Tyler Rhinehart</li>
+                    </ul>
+                </div>
+                <div class="top-bar-right">
+                    <ul id="menu" class="menu">
+                        <li>
+                            <a class="smooth" href="#skills">Skills</a>
+
+                        </li>
+                        <li>
+                            <a class="smooth" href="#about">About</a>
+                        </li>
+                        <li>
+                            <a class="smooth" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="//tylerrhinehart.github.io/resume" target="_blank">Resume</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End Top Bar -->
+
+    <div class="callout large">
+        <div class="headshot">
+            <img src="static/images/headshot.png" alt="Tyler Rhinehart">
+        </div>
+        <div class="text-center">
+            <h1>Tyler Rhinehart</h1>
+            <h3>Full Stack Web Developer</h3>
+        </div>
+    </div>
+
+    <article>
+        <div class="grid-container">
+            <div class="grid-x align-center">
+                <div class="cell medium-8">
+                    <div class="section skills text-center">
+                        <h3>Summary</h3>
+                        <p>
+                            Full Stack Developer seeking community and environment of growth and innovation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </article>
+
+    <article id="skills" class="callout large">
+        <div class="grid-container">
+            <div class="grid-x align-center">
+                <div class="cell medium-8">
+                    <div class="section skills">
+                        <h3>Skills</h3>
+                        <div class="grid-x">
+                            <div class="cell medium-6 skills-list">
+                                <h4>Front End</h4>
+                                <ul>
+                                    <li>Vue.js</li>
+                                    <li>React</li>
+                                    <li>Javascript</li>
+                                    <li>HTML5</li>
+                                    <li>SASS/CSS3</li>
+                                </ul>
+                            </div>
+                            <div class="cell medium-6 skills-list">
+                                <h4>Back End</h4>
+                                <ul>
+                                    <li>C#</li>
+                                    <li>ASP.NET Core</li>
+                                    <li>PHP</li>
+                                    <li>Laravel</li>
+                                    <li>Node.js</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </article>
+
+    <article id="about" class="grid-container">
+        <div class="grid-x align-center">
+            <div class="cell medium-8">
+                <div class="section about-me">
+                    <h3>About Me</h3>
+                    <div class="grid-x">
+                        <div class="cell medium-6">
+                            <p>
+                                I am a Full Stack Web Developer seeking new opportunities and growth. I am a graduate of Boise CodeWorks' Full Stack Web Development
+                                program and I earned a bachelors in Business and IT Management at the same time. I am a self-motivated,
+                                quick thinking problem solver who thrives on new and difficult challenges. I am always learning
+                                and working to become the best at whatever I put my hands and mind to.
+                            </p>
+                            <p>
+                                For the majority of my life, I have worked with Champions College and the Championeers leadership program. This experience
+                                has helped me build the skills necessary to be a leader, involved team member, problem solver,
+                                and self-starter in any situation and environment I find myself in.
+                            </p>
+                        </div>
+                        <div class="cell medium-6 experience">
+                            Experience
+                            <ul>
+                                <li>Western Power Sports</li>
+                                <li class="exp-title">- Web Developer</li>
+                                <li>Port One Five</li>
+                                <li class="exp-title">- Software Developer</li>
+                                <li>Boise CodeWorks</li>
+                                <li class="exp-title">- Immersive Full Stack Web Development Student</li>
+                                <li>Champions College</li>
+                                <li class="exp-title">- Business and IT curriculum Development</li>
+                                <li>Championeers</li>
+                                <li class="exp-title">Lead Programmer for IT and Marketing</li>
+                                <li>Four Rivers Crossfit</li>
+                                <li class="exp-title">- Manager/Head Coach</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </article>
+
+    <article id="portfolio" class="callout large">
+        <div class="grid-container">
+            <div class="grid-x align-center">
+                <div class="cell medium-8">
+                    <div class="section portfolio">
+                        <h3>Portfolio</h3>
+                        <div class="grid-x">
+                            <div class="cell medium-6">
+                                    <div class="card">
+                                        <div class="card-divider">
+                                            <h4>FLY Racing Formula Helmet</h4>
+                                        </div>
+                                        <a href="https://formula.flyracing.com" target="_blank">
+                                            <img src="static/images/formula.png">
+                                        </a>
+                                        <div class="card-section">
+                                            <p>Marketing promo microsite for the FLY Racing Formula Helmet</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            <div class="cell medium-6">
+                                <div class="card">
+                                    <div class="card-divider">
+                                        <h4>CMS</h4>
+                                    </div>
+                                    <a href="http://cms.tylerrhinehart.com" target="_blank">
+                                        <img src="static/images/cms.png">
+                                    </a>
+                                    <div class="card-section">
+                                        <p>Custom CMS built on top of wordpress, using Laravel.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cell medium-6">
+                                <div class="card">
+                                    <div class="card-divider">
+                                        <h4>Keepr</h4>
+                                    </div>
+                                    <a href="https://tyler-keepr.herokuapp.com/" target="_blank">
+                                        <img src="static/images/keepr.png">
+                                    </a>
+                                    <div class="card-section">
+                                        <p>Pinterest inspired app, allowing sharing and favoriting of photos.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cell medium-6">
+                                <div class="card">
+                                    <div class="card-divider">
+                                        <h4>Music Finder</h4>
+                                    </div>
+                                    <a href="https://music-checkpoint.herokuapp.com/" target="_blank">
+                                        <img src="static/images/music.png">
+                                    </a>
+                                    <div class="card-section">
+                                        <p>Uses iTunes API to search for songs and listen to previews.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </article>
+
+    <script src="static/js/vendor/jquery.js"></script>
+    <script src="static/js/vendor/what-input.js"></script>
+    <script src="static/js/vendor/foundation.min.js"></script>
+    <script>
+        $(document).foundation();
+
+
+        $(document).ready(function () {
+            $(".smooth").click(function (event) {
+                event.preventDefault();
+
+                var dest = 0;
+                if ($(this.hash).offset().top > $(document).height() - $(window).height()) {
+                    dest = $(document).height() - $(window).height();
+                } else {
+                    dest = $(this.hash).offset().top;
+                }
+
+                $('html,body').animate({ scrollTop: dest }, 1000, 'swing');
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>
