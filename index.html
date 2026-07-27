@@ -12,6 +12,23 @@
     <link rel="stylesheet" type="text/css" href="yuiStyle.css" media="all" />
     <link rel="stylesheet" type="text/css" href="resume.css" media="all" />
 
+    <style>
+        /* Four skills read better as a 2x2 than a row of three with an orphan. */
+        .skill {
+            width: 48%;
+            margin-right: 4%;
+            margin-bottom: 14px;
+        }
+
+        .skill:nth-child(even) {
+            margin-right: 0;
+        }
+
+        .skill:nth-child(odd) {
+            clear: left;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -30,7 +47,7 @@
                         <div class="contact-info">
                             <h3><a id="pdf" href="TylerRhinehart-Resume.pdf">View PDF</a></h3>
                             <h3><a href="mailto:tyler.rhinehart22@gmail.com">tyler.rhinehart22@gmail.com</a></h3>
-                            <h3>(208) 740-7855</h3>
+                            <h3>(385) 722-4211</h3>
                         </div>
                     </div>
                 </div>
@@ -46,7 +63,8 @@
                             </div>
                             <div class="yui-u">
                                 <p class="enlarge">
-                                    Technical Director and Full Stack Software Engineer passionate about leading teams, driving technology strategy, and building innovative solutions.
+                                    Technical Director and Full Stack Software Engineer. Early adopter of agentic engineering; leveraging it to maximize effectiveness and impact.
+                                    Shipping production systems where correctness and speed matter, from conversational AI to enterprise payment infrastructure.
                                 </p>
                             </div>
                         </div>
@@ -59,18 +77,23 @@
                             <div class="yui-u">
 
                                 <div class="skill">
-                                    <h2>Innovation</h2>
-                                    <p>Proven track record of bringing a spirit of innovation to new and legacy applications</p>
+                                    <h2>Agentic Engineering</h2>
+                                    <p>Builds the system that builds the system. Disciplined agentic engineering, not vibe coding: harnesses, context, and review loops that turn agents into production code</p>
+                                </div>
+
+                                <div class="skill">
+                                    <h2>AI Systems</h2>
+                                    <p>Builds intelligent tools, pipelines, and applications. RAG, tool-calling agents, evals, and guardrails, applied where they solve a real problem</p>
+                                </div>
+
+                                <div class="skill">
+                                    <h2>Technical Leadership</h2>
+                                    <p>Owns architecture and technology strategy, hires and grows engineers. Keeps systems simple so they hold up as the team and the tools move fast</p>
                                 </div>
 
                                 <div class="skill">
                                     <h2>Customer Obsession</h2>
-                                    <p>From brainstorming to implementation, the customer is always at the center</p>
-                                </div>
-
-                                <div class="skill">
-                                    <h2>Teamwork</h2>
-                                    <p>As a leader and individual contributor, I rally my team together to perform the best work of our lives</p>
+                                    <p>Keeps the customer at the center from brainstorming through implementation. Ships what solves the problem, not what is most interesting to build</p>
                                 </div>
                             </div>
                         </div>
@@ -81,7 +104,7 @@
                             </div>
                             <div class="yui-u">
                                 <p>
-                                    I am an avid learner and am always looking for ways to improve my craft. Whether it is generative AI, functional programming paradigms, or blockchain technologies
+                                    I am an avid learner and am always looking for ways to improve my craft. Whether it is agents and agentic engineering, functional programming paradigms, or reading business books,
                                     I like to stay up to date on the latest technologies, tooling, and best practices so that I can bring the greatest value in the shortest time to my team and customers.
                                 </p>
                             </div>
@@ -94,6 +117,25 @@
                             </div>
 
                             <div class="yui-u">
+                                <div class="job">
+                                    <h2>Ambar</h2>
+                                    <h3>Lead Software Engineer</h3>
+                                    <h4>November 2025 - Present</h4>
+                                    <p>
+                                        Lead engineer building two flagship products. Architected a RAG-based conversational AI agent that helps buyers find the perfect property, backed by a knowledge base built from crawling and indexing affiliated real estate websites.
+                                        Also building an enterprise payout and payment platform for the Indian market that integrates directly with banks to access a wide range of payment rails, featuring an intelligent payout queue that routes each transaction based on rail, live bank rate-limit capacity, time of day, and many other real-time factors.
+                                    </p>
+                                </div>
+
+                                <div class="job">
+                                    <h2>Software/AI Consultant</h2>
+                                    <h4>August 2025 - Present</h4>
+                                    <p>
+                                        Provide independent software and AI consulting across a range of clients, including a national truck-stop chain and fuel network, an educational platform startup, and a local school.
+                                        Advise on and build software and AI-driven solutions tailored to each client's business and technical needs.
+                                    </p>
+                                </div>
+
                                 <div class="job">
                                     <h2>Advanced Ed Solutions, Inc.</h2>
                                     <h3>Technical Director</h3>
@@ -213,7 +255,7 @@
             </div>
 
             <div id="ft">
-                <p>Tyler Rhinehart &mdash; <a href="mailto:tyler.rhinehart22@gmail.com">tyler.rhinehart22@gmail.com</a> &mdash; (208) 740-7855</p>
+                <p>Tyler Rhinehart &mdash; <a href="mailto:tyler.rhinehart22@gmail.com">tyler.rhinehart22@gmail.com</a> &mdash; (385) 722-4211</p>
             </div>
 
         </div>
